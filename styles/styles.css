@@ -32,7 +32,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(red, green, blue, alpha);
+    border: 1px solid rgba(0, 0, 0);
     padding: 1rem;
     background-color: #eee;
     color: purple;
