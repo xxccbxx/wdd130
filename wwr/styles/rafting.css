@@ -100,12 +100,4 @@ body {
     padding: 10px;
   }
 
-  img::after {
-    content: (alt);
-    display: block;
-    text-align: center;
-    font-size: 14px;
-    color: #566246;
-    margin-top: 5px;
-  }
   
