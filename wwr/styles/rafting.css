@@ -87,7 +87,7 @@ body {
 
   body {
     font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
+    font-optical-sizing: 17;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
@@ -99,13 +99,3 @@ body {
     height: auto;
     padding: 10px;
   }
-
-  img::after {
-    content: (alt);
-    display: block;
-    text-align: center;
-    font-size: 14px;
-    color: #566246;
-    margin-top: 5px;
-  }
-  
