@@ -27,7 +27,7 @@ p {
 
 body {
     max-width: 840px; 
-    margin: 10px;   
+    margin: o auto;   
   }
 
   
@@ -98,4 +98,17 @@ body {
     width: 500px;
     height: auto;
     padding: 10px;
+  }
+
+  aside {
+    grid-column: span 1;
+    background: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+
+  .grid {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
   }
