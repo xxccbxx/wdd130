@@ -1,11 +1,10 @@
-new (chatgpt)
-
 /* General Reset */
 body, h1, h2, p, img, a {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
+
+
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -21,28 +20,30 @@ body {
     gap: 20px;
 }
 
+header img {
+    height: 150px;
+    width: auto;
+    
+}
+
 /* Header Styles */
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; /* Ensures space between h1 and nav */
     padding: 20px;
-    background: #333;
+    background: #FFBC1F;
     color: #fff;
 }
 
-header img {
-    height: 80px;
-    width: auto;
-}
-
 header h1 {
-    font-size: 2rem;
+    margin: 0;
 }
 
 header nav {
     display: flex;
     gap: 15px;
+    margin-left: auto; /* Pushes the nav to the right */
 }
 
 header nav a {
@@ -52,14 +53,22 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #f4a261;
+    color: #1B3B6F;
 }
+
 
 /* Hero Section */
 .hero {
     height: 300px;
     background: url('images/hero.jpg') center/cover no-repeat;
     margin-bottom: 20px;
+}
+
+.hero img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 /* Article Section */
@@ -74,9 +83,11 @@ article {
 }
 
 article img {
-    width: 200px;
+    width: 700px;
     height: auto;
+    margin: 0 auto;
     border-radius: 5px;
+    position: relative;
 }
 
 article p {
@@ -108,7 +119,7 @@ section img:not(:first-child) {
 /* Aside */
 aside {
     padding: 20px;
-    background-color: #f4a261;
+    background-color: #1B3B6F;
     color: #fff;
     border-radius: 10px;
     text-align: center;
@@ -118,15 +129,16 @@ aside {
 /* Footer */
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     padding: 20px;
-    background-color: #333;
+    background-color:  #FFBC1F;
+    ;
     color: #fff;
 }
 
 footer nav {
-    display: flex;
+    display:flex;
     gap: 10px;
 }
 
